@@ -1,0 +1,198 @@
+
+@media screen and (max-width: 1200px) {
+	section .pressents {
+		width: 59%;
+	}
+}
+@media screen and (max-width: 991px) {
+	header .logo {
+		display: block;
+		text-align: center;
+	}
+	header nav.pull-right, header nav .responsive-menu ul, header nav .login ul{
+		float: none !important;
+		text-align: center;
+	}
+	header nav .login ul {
+		border-radius: 4px;
+		display: inline-block;
+	}
+	header nav .responsive-menu {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	header nav .responsive-menu ul li {
+		padding-left: 15;
+		padding-right: 15;
+	}
+	header {
+		margin-bottom: 20px;
+	}
+	section .pressents, section .wishlist {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+	}
+	section .pressents {
+		width: 50%;
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	// section .pressents .item {
+	// 	text-align: center;
+	// }
+	section .pressents .product .add-to button {
+		width: 93%;
+	}
+	section .pressents .product>img {
+		float: left;
+	}
+	section .pressents .pressents-inner .products .product p {
+		white-space: normal;
+		overflow: auto;
+		padding-top: 18px;
+		padding-left: 3px;
+	}
+	section .pressents .pressents-inner .products {
+		height: 457px;
+	}
+}
+@media screen and (max-width:754px) {
+	section .pressents, section .wishlist {
+		width: 90%;
+		display: table;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	section .pressents .item {
+		width: 33.3%;
+		float: left;
+	}
+	section .pressents .product,section .pressents .over {
+		max-width: 163px;
+	}
+	section .pressents .product>img {
+		float: none;
+	}
+	section .pressents .pressents-inner .products .product p {
+		white-space: nowrap;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-left: 3px;
+	}
+	section .pressents .product .add-to button {
+		width: 88%;
+	}
+	section .wishlist .wishlist-block {
+		height: auto;
+	}
+	section .pressents .pressents-inner .products, section .wishlist .wishlist-block .wishlist-cart {
+		height: 400px;
+	}
+	section .wishlist .wishlist-footer button {
+		width: 96%;
+	}
+	section .wishlist .wishlist-block .added-item .over-item button {
+		width: 100%;
+	}
+	section .wishlist .wishlist-block .added-item .over-item .list-inline>li {
+		width: 49%;
+	}
+	section .wishlist .wishlist-block .added-item .over-item>ul {
+    	margin: 23px;
+	}
+	header .responsive-menu {
+		display: none;
+	}
+	header nav .menu-btn {
+		display: inline-block;
+	}
+}
+@media screen and (max-width:683px) {
+	section .pressents, section .wishlist {
+		width: 95%;
+	}
+	section .wishlist .wishlist-block .added-item .title {
+		max-width: 360px;
+	}
+	footer .footer-menu li {
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width:625px) {
+	section .pressents, section .wishlist {
+		width: 85%;
+	}
+	section .pressents .item {
+		width: 50%;
+	}
+}
+@media screen and (max-width:502px) {
+	section .pressents, section .wishlist {
+		width: 95%;
+	}
+	header nav .responsive-menu ul li {
+		display: block;
+		padding-left: 0px;
+	}
+}
+@media screen and (max-width:450px) {
+	section .pressents .item {
+		width: 100%;
+	}
+	section .pressents .product,section .pressents .over {
+		max-width: 100%;
+	}
+	section .pressents .product>img {
+		float: left;
+	}
+	section .pressents .pressents-inner .products .product>p {
+		white-space: normal;
+		overflow: auto;
+		padding-top: 8px;
+	}
+	section .pressents .product .add-to button {
+		width: 93%;
+	}
+	section .pressents .pressents-inner-head p {
+		padding-left: 100px;
+	}
+	section .pressents .pressents-inner-search .small-field {
+		display: inline-block;
+	}
+	section .pressents .pressents-inner-search .large-field {
+		display: none;
+	}
+	section .wishlist .wishlist-block .added-item .title {
+		max-width: 300px;
+	}
+	section .wishlist .wishlist-block .added-item .over-item>ul {
+	    margin: 2px;
+	    margin-top: 23px;
+	}
+}
+@media screen and (max-width:381px) {
+	section .pressents, section .wishlist {
+		width: 100%;
+		margin: 0;
+	}
+	section .pressents .product, section .pressents .over {
+    	max-width: 280px;
+	}
+	section .pressents .product {
+		text-align: center;
+	}
+	section .pressents .product>img {
+		float: none;
+	}
+	section .pressents .pressents-inner .products .product p {
+		white-space: nowrap;
+		overflow: hidden;
+		padding-top: 0px;
+		padding-left: 3px;
+	}
+	section .wishlist .wishlist-footer button {
+		padding: 12px;	
+	}
+}
+
