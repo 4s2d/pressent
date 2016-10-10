@@ -1,8 +1,14 @@
 $(document).ready(function(event) {
 
-    // Hover on products 
+    $('.menu-btn').on('click',function(event){
+		
+		event.preventDefault();
 
-  
+		$('.responsive-menu').toggleClass('active');
+	});
+
+    
+    // Hover on products 
 
 	$('.item').hover(
 		function(event) {
